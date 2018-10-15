@@ -2,8 +2,12 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle unicode-hotbar",
-        "command": "unicode-hotbar:toggle"
+        "label": "Toggle Unicode Hotbar",
+        "command": "unicode-hotbar:show_hide_hotbar"
+      },
+      {
+        "label": "Toggle Unicode Favourites",
+        "command": "unicode-hotbar:show_hide_favourites"
       }
     ]
   },
@@ -12,11 +16,15 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "unicode-hotbar",
+          "label": "Unicode Hotbar",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "unicode-hotbar:toggle"
+              "label": "Toggle Unicode Hotbar",
+              "command": "unicode-hotbar:show_hide_hotbar"
+            },
+            {
+              "label": "Toggle Unicode Favourites",
+              "command": "unicode-hotbar:show_hide_favourites"
             }
           ]
         }
