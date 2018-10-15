@@ -3,10 +3,10 @@
 A simple bar for atom that allows for easy insertion of Unicode characters.
 
 ## Contents
-- [To Do List](#To-Do)
-- [Features Of The Plugin](#Features)
-- [Installing](#Installing)
-- [Contributing](#Contributing)
+- [To Do List](#to-do)
+- [Features Of The Plugin](#features)
+- [Installing](#installing)
+- [Contributing](#contributing)
 
 ## To Do
 - [ ] Hotbar
