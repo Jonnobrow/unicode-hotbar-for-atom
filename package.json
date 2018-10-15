@@ -1,0 +1,20 @@
+{
+  "name": "unicode-hotbar",
+  "main": "./lib/unicode-hotbar",
+  "version": "0.0.0",
+  "description": "A simple bar for atom that allows for easy insertion of Unicode characters.",
+  "keywords": [
+    unicode, hotbar, simple
+  ],
+  "activationCommands": {
+    "atom-workspace": "unicode-hotbar:show_hide_hotbar",
+    "atom-workspace": "unicode-hotbar:show_hide_favourites",
+  },
+  "repository": "https://github.com/Jonnobrow/unicode-hotbar-for-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

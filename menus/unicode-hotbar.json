@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle unicode-hotbar",
+        "command": "unicode-hotbar:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "unicode-hotbar",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "unicode-hotbar:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
