@@ -4,5 +4,22 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.unicode-hotbar {
+.unicode-hotbar-hotbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.unicode-hotbar-hotbar button {
+  padding: @component-padding;
+  font-size: @font-size;
+  background-color: @button-background-color;
+  color: @text-color;
+  border: @button-border-color;
+}
+
+.unicode-hotbar-hotbar button:hover {
+  background-color: @button-background-color-hover;
 }

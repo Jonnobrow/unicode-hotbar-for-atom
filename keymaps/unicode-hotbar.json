@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "unicode-hotbar:toggle"
+    "shift-alt-u": "unicode-hotbar:show_hide_hotbar",
+    "ctrl-alt-shift-Y": "unicode-hotbar:show_hide_favourites"
   }
 }
